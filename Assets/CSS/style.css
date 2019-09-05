@@ -1,0 +1,70 @@
+html, body {
+    height: 98%;
+    
+  }
+
+body {
+    margin: 0px auto;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+   }
+
+p {
+    display: inline;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 25px;
+    
+}
+
+.content {
+    flex: 1 0 auto;
+  }
+
+.mainHeader {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin: 0px auto;
+    width: 960px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    
+}
+
+.whiteBox {
+    width: 960px;
+    margin: 0px auto;
+    color: #777777;
+    background-color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.buton {
+    position: relative;
+    right: -510px;
+}
+
+#myPicture {
+    float: left;
+    transform: rotate(90deg);
+    width: 170px;
+    height: 130px;
+}
+
+#myName {
+    display: inline;
+    position: relative;
+    background-color: #4aaaa5;
+    padding: 25px;
+    
+}
+
+.footer {
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    flex-shrink: 0;
+    padding: 20px;
+}
