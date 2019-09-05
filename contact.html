@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="Assets/CSS/style.css">
   </head>
 
-  <body>
+  <body background="assets/Images/beige-tiles.png">
 
   <div class="content">
     
@@ -15,34 +15,37 @@
 
     <div class="mainHeader">
         <h1 id="myName">Froylan Perez</h1>
-        <a class="buton" target="_blank" href="index.html">About</a>
-        <a class="buton" target="_blank" href="portfolio.html">Portfolio</a>
-        <a class="buton" target="_blank" href="contact.html">Contact</a>
+        <a class="button" target="_blank" href="index.html">About</a>
+        <a class="button" target="_blank" href="portfolio.html">Portfolio</a>
+        <a class="button" target="_blank" href="contact.html">Contact</a>
     </div>
 
   </header>
 
     <div class="whiteBox">
+
     <h1 class="firstTitle">Contact</h1>
-    <hr/>
+    <hr size="3px" color="#777777">
+    
     <form action="/my-handling-form-page" method="post">
-        <div>
-            <label for="name">Name:</label>
+        <div id="firstLabel">
+            <label for="name">Name</label>
             <input type="text" id="name" />
         </div>
         <div>
-            <label for="mail">E-mail:</label>
+            <label for="mail">E-mail</label>
             <input type="email" id="mail" />
         </div>
         <div>
-            <label for="msg">Message:</label>
+            <label for="msg">Message</label>
             <textarea id="msg"></textarea>
         </div>
         
-        <div class="button">
+        <div class="buttonSubmit">
             <button type="submit">Submit</button>
         </div>
     </form>
+
     </div>
     
   </div>
